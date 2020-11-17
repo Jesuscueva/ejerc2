@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #674BB0;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    /* Para poder acomodar la imagen de fondo al contenedor */
+    background-size: contain;
+}
+
+.contenedor {
+    height: calc(100vh - 75px);
+    max-width: 1440px ;
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+.contenedor__izquierdo {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px 30px 30px;
+    margin: 25px 0px; 
+}
+.contenedor__img {
+    margin: 0 0 0 30px;
+    padding-left: ;
+    position: relative;
+}
+
+.logo {
+    width: 30%;
+    margin: 
+}
+
+.banner {
+    width: 94%;
+    margin-top: 40px;
+}
+
+.contenedor__derecho {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.derecho__text h2 {
+    width: 65%;
+    color: #FFFCFF;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15px;
+}
+
+.derecho__text p {
+    width: 85%;
+    color: #FFF1FF;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    line-height: 2rem;
+}
+
+.derecho__text button {
+    margin-top:  10px;
+    width: 170px;
+    color: #806DB7;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    /* font-weight: ; */
+    border-radius: 60px;
+    padding: 10px ;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 3px 8px #47269b;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.derecho__text button:hover {
+    background-color: #E980E7;
+    color: #FFF1FF;
+    transform: scale(1.2);
+}
+
+.contenedor__footer {
+    height: 75px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-right: 100px;
+}
+
+.contenedor__footer i{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color:#674BB0;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s all  ease-out;
+}
+
+.contenedor__footer i:hover {
+    transform: scale(1.2);
+}
